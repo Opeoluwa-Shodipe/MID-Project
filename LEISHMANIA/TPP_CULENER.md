@@ -1,89 +1,70 @@
-
 # CULENER  
 ## Target Product Profile (TPP)
 
-This document outlines the acceptable and optimal requirements for a molecular assay used in the CULENER project, with a clear rationale tailored to the study context. For any irrelevant items, justification is provided.
+This Target Product Profile (TPP) outlines the acceptable and optimal requirements of the assay for evaluating the performance of the Rapid Diagnostic Test (RDT) for Cutaneous Leishmaniasis (CL) in Nepal. Each criterion includes a clear rationale grounded in the project context.
 
 ---
 
-### Test Performance
+## Test Performance
 
-| **Item**                    | **Acceptable Requirement**                      | **Optimal Requirement**                             | **Rationale** |
-|----------------------------|-------------------------------------------------|-----------------------------------------------------|---------------|
-| Diagnostic specificity     | 80%                                             | 100%                                                | Our PCR test ideally achieves 100% specificity. However, since sequencing follows amplification, we accept 80% to identify non-specific amplifications and reduce sequencing costs. |
-| Diagnostic/clinical specificity | Irrelevant                                  | Irrelevant                                          | We're evaluating an RDT's performance, not using it for clinical diagnosis. |
-| Diagnostic sensitivity     | Irrelevant                                      | Irrelevant                                          | Not relevant, as we are not diagnosing disease. |
-| Analytical specificity     | 100%                                            | 100%                                                | Our confirmation test must match the 100% specificity of the RDT to ensure sensitivity isn’t underestimated. |
-| Analytical sensitivity     | Equivalent to 47 parasite equivalents           | 1 parasite equivalent                               | We aim for 1 parasite equivalent detection. Acceptable sensitivity is 75% higher than RDT's minimum (187 parasites). |
-| Positive Predictive Value  | Irrelevant                                      | Irrelevant                                          | PPV depends on disease prevalence, which is not the focus of this study. |
-| Negative Predictive Value  | Irrelevant                                      | Irrelevant                                          | Same as above. |
-| Resolution (species discrimination) | Differentiate L. major, L. donovani complex, L. siamensis, L. tropica | Differentiate all 5 Leishmania spp. possibly circulating in Nepal | Although only L. donovani and L. major are reported, other species circulate nearby, and we want broad detection capability. |
-
----
-
-### Study Sample
-
-| **Item**                   | **Requirement**                                 | **Rationale** |
-|---------------------------|--------------------------------------------------|----------------|
-| Target host population    | Patients suspected of CL and tested with the CL RDT in Nepal | To evaluate RDT performance in real diagnostic settings |
-| Target pathogen population | L. donovani complex, L. major, L. infantum, L. siamensis | Broader species detection to account for regional transmission |
-| Target vector population  | Irrelevant                                       | Study is focused on patients, not vectors |
-| Spatial dimensions        | Entirety of Nepal                                | Samples from across Nepal should be accurately analyzed |
-| Temporal dimensions       | 2-year study duration                            | Covers complete research cycle |
+| **Item**                 | **Acceptable Requirement**                                            | **Optimal Requirement**                                                      | **Rationale** |
+|--------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------|
+| Diagnostic specificity   | Irrelevant                                                            | Irrelevant                                                                    | Focus is on RDT performance evaluation, not direct diagnosis. |
+| Diagnostic sensitivity   | Irrelevant                                                            | Irrelevant                                                                    | Same as above. |
+| Analytical specificity   | Detect only Leishmania, avoid cross-reaction with other pathogens     | Detect only Leishmania, no cross-reaction                                     | The test should outperform the RDT in specificity. |
+| Analytical sensitivity   | Equivalent to 47 parasites                                            | Detect 1 Leishmania parasite equivalent                                       | The RDT detects 187 parasite equivalents; this assay should be 75% more sensitive. |
+| Positive Predictive Value| Irrelevant                                                            | Irrelevant                                                                    | Depends on disease prevalence, which is unknown in this context. |
+| Negative Predictive Value| Irrelevant                                                            | Irrelevant                                                                    | Same as above. |
+| Resolution               | Differentiate *L. major*, *L. donovani* complex, *L. siamensis*, *L. tropica* | Differentiate 5 Leishmania spp. found or potentially circulating in Nepal | Literature reports only *L. major* and *L. donovani*, but regional circulation of others justifies broader resolution. |
 
 ---
 
-### Sample Characteristics
+## Study Sample
 
-| **Item**           | **Acceptable Requirement**         | **Optimal Requirement**                 | **Rationale** |
-|--------------------|------------------------------------|------------------------------------------|----------------|
-| Sample type        | Skin lesion biopsy in DNA/RNA shield | Same                                   | Standard method for detecting CL |
-| Sample volume      | 50 µL                              | 16.6 µL (triplicate)                    | Enables triplicate testing but accounts for low parasite burden |
-
----
-
-### Feasibility
-
-| **Item**                | **Acceptable Requirement**                             | **Optimal Requirement**                                     | **Rationale** |
-|-------------------------|--------------------------------------------------------|--------------------------------------------------------------|----------------|
-| Processing time         | 4-hour test within 7 days of sample reception          | Immediate processing; storage in -20°C allows flexibility     | Max 2 samples/day; freeze-stored samples can be tested later |
-| Storage/shipping samples| -20°C storage in DNA/RNA shield, freezer box shipping  | -80°C cold chain for indefinite stability                     | -80°C is ideal but not always feasible from rural sites |
-| Storage/shipping reagents| Stable for ≥3 months and shipping duration            | Stable for ≥2 years or entire study at room temp              | Samples stored up to 3 months between shipments |
-| Reagent availability    | Reliable every 3 months                                | On-demand availability                                        | Quarterly supply aligns with shipment schedule |
+| **Item**                  | **Requirement**                                                                                             | **Rationale** |
+|---------------------------|--------------------------------------------------------------------------------------------------------------|----------------|
+| Target host population    | Patients suspected of CL and tested with the CL RDT in Nepal                                                 | We aim to assess RDT performance in the patient population. |
+| Target pathogen population| *L. donovani* complex, *L. major*, *L. infantum*, *L. siamensis*                                             | Potential spread of neighboring species requires broader detection ability. |
+| Target vector population  | Irrelevant                                                                                                  | Study focuses solely on human clinical samples. |
+| Spatial dimensions        | Entirety of Nepal                                                                                           | Samples sourced from multiple regions and health centers. |
+| Temporal dimensions       | June 2024 – August 2026                                                                                      | Full study duration. |
 
 ---
 
-### Infrastructure
+## Sample Characteristics
 
-| **Item**             | **Acceptable Requirement**                  | **Optimal Requirement**                       | **Rationale** |
-|----------------------|---------------------------------------------|------------------------------------------------|----------------|
-| Lab infrastructure   | Standard bench safety protocols             | Molecular lab setup (pre-/post-PCR)           | Sufficient for DNA extraction and PCR |
-| Molecular equipment  | Molecular analysis equipment                | Same                                           | Parasites are non-infectious |
-| Equipment            | Freezers and general molecular biology tools| Same                                           | Already available in reference lab |
-| Human resources      | Trained lab technicians and molecular biologists | Fully trained staff with bioinformatics capacity | Required for reliable data |
+| **Item**         | **Acceptable Requirement**                  | **Optimal Requirement**                    | **Rationale** |
+|------------------|---------------------------------------------|--------------------------------------------|----------------|
+| Sample type       | Skin lesion biopsy in DNA/RNA Shield        | Same                                       | Allows stable DNA preservation for analysis. |
+| Sample volume     | 50 µL                                       | 16.6 µL (for triplicates)                 | Triplicate testing requires ~16.6 µL; 50 µL allows flexibility in low parasite loads. |
 
 ---
 
-### Safety and Ethics
+## Feasibility
 
-| **Item**         | **Acceptable Requirement**    | **Optimal Requirement**          | **Rationale** |
-|------------------|-------------------------------|----------------------------------|----------------|
-| Safety/hazard    | Pre-PCR DNA-free room, post-PCR room | Same                        | Standard lab precautions are sufficient |
-| Cost             | €4,800 total for 2 years       | No limit                        | Budget-constrained project |
-| Ethics           | Pseudoanonymisation with consent | Full anonymisation with consent | Pseudonymisation allows RDT-confirmation linking |
-| Nagoya Protocol  | NA                            | NA                               | Not applicable |
-| Other regulatory | NA                            | NA                               | Not applicable |
+| **Item**                | **Acceptable Requirement**                                                  | **Optimal Requirement**                                                  | **Rationale** |
+|-------------------------|----------------------------------------------------------------------------|---------------------------------------------------------------------------|----------------|
+| Processing time / throughput | Batches of 30–40 samples every 6 months, up to 80 in final 3 months       | Batches of 25 samples every 3 months                                      | Based on estimated flow and capacity. Final batch may be larger. |
+| Storage/shipping samples | Store in -80°C freezers; fall back to -20°C if unavailable                 | Stable in -20°C for full project duration                                 | Storage at health centers may not permit -80°C, so -20°C and freezer boxes will be used. |
+| Storage/shipping reagents | Store at -20°C                                                            | Store at -20°C                                                            | Freezer space is available at the Kathmandu reference lab. |
+| Availability of reagents | Timely availability when needed                                            | Reliable supply every 3 months                                            | Reagents should align with batch processing timeline. |
+| Lab infrastructure       | Molecular lab for DNA extraction, PCR setup; post-PCR lab                 | Same                                                                      | Lab meets infrastructure requirements. |
+| Equipment                | Freezers, general molecular biology tools                                 | Same                                                                      | Equipment already available. |
+| Human resources          | 2 trained lab technicians + molecular biologists                           | Same                                                                      | Reference lab has capable and trained personnel. |
+| Safety and hazard        | Standard biosafety procedures; no biosafety cabinets required             | Same                                                                      | Parasites are non-infectious. |
+| Cost                     | €24 per sample                                                             | <€24 per sample                                                           | Budget is €4800 for 200 samples (200 × €24). |
+| Ethics                   | Pseudoanonymisation with informed consent                                 | Total anonymisation with informed consent                                 | Pseudonymisation is required to link RDT and lab-confirmed results. |
+| Nagoya protocol          | Not applicable                                                             | Not applicable                                                             | Samples remain within country. |
+| Other regulatory items   | Not applicable                                                             | Not applicable                                                             | NA |
 
 ---
 
-### References
+## Reference
 
 - [CL Detect Rapid Test Package Insert (ITM Campus)](https://campus.itg.be/pluginfile.php/17125/mod_folder/content/0/900159-00-IVD-CL-Detect-Rapid-Test-Package-Insert.pdf)
 
 ---
 
-**Document version:** MID-2024 TPP – CULENER  
-**Prepared for:** Molecular Implementation and Diagnostics (MID)  
-**Pages:** 2 of 2
-
+**Document Version:** MID-2024  
+**Project:** TPP – CULENER  
 **Contributors:** Noor Hidayatallah, Gladys Gutierrez-Bugallo, Opeoluwa Shodipe
